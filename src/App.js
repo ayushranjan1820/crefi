@@ -1,9 +1,14 @@
-import React from "react";
+import React from "react"
+import Navbar from './components/Navbar'
+import Hero from "./components/Hero";
+import Featured from "./components/Featured";
 
 function App() {
   return (
     <>
-hi
+    <Navbar />
+    <Hero />
+    <Featured />
     </>
   );
 }
